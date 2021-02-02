@@ -90,10 +90,6 @@ var AlarmList = /*#__PURE__*/function () {
       var _this2 = this;
 
       this.list.childNodes.forEach(function (child) {
-        console.log(child.textContent.includes(time));
-        console.log(child.textContent);
-        console.log(time);
-
         if (child.textContent.includes(time)) {
           _this2.list.remove(child);
         }

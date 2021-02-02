@@ -59,9 +59,6 @@ export default class AlarmList {
 
     updateList(time) {
         this.list.childNodes.forEach(child => {
-            console.log(child.textContent.includes(time))
-            console.log(child.textContent)
-            console.log(time)
             if (child.textContent.includes(time)) {
                 this.list.remove(child);
             }
