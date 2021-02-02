@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+
+button {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+}
+
+button, input { 
+    border: 1px #9e9e9e solid;
+}
+
+textarea {
+    width: 500px;
+}
